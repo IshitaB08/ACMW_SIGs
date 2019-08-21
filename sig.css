@@ -18,25 +18,48 @@ footer{
 }
 
 #target {
+  border-radius: 5px;
+  box-shadow: grey;
   background:#0099cc;
-  width:1200px;
+  align-self: auto;
+  width:auto;
   height:300px;
-  height:160px;
+  /* height:160px; */
   padding:5px;
   display:none;
+  clear:both;
+  margin-bottom: 20px;
+  transition: height 2s;
 }
 
 #target2 {
+  border-radius: 5px;
+  box-shadow: grey;
   background:yellow;
-  width:1200px;
+  width: auto;
   height:300px;
-  height:160px;
+  /* height:160px; */
   padding:5px;
   display:none;
+  clear: both;
+  margin-bottom: 20px;
 }
+
+#target3 {
+  border-radius: 5px;
+  box-shadow: grey;
+  background:yellow;
+  width: auto;
+  height:300px;
+  /* height:160px; */
+  padding:5px;
+  display:none;
+  clear: both;
+  margin-bottom: 20px;
+}
+
 
 .Hide
 {
   display:none;
 }
-
