@@ -1,3 +1,7 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1566495774421-a26168bc1623?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80');
+}
+
 .d-block{
   height : 500px;
 }
@@ -5,11 +9,32 @@ h1{
   text-align: center;
   font-family: 'Dosis', sans-serif;
 }
+
+h2 {
+    color: indigo;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+}
+
+table,td,tr, th{
+    border : 2px solid black;
+}
+td{
+    width: 100px;
+}
+
 footer{
   clear: both;
   background-color: #353538;
   color: white;
 }
+
+
 .card{
   width : 30%;
   height : 26.5%;
@@ -18,25 +43,83 @@ footer{
 }
 
 #target {
-  background:#0099cc;
-  width:1200px;
-  height:300px;
-  height:160px;
-  padding:5px;
-  display:none;
+    border-radius: 5px;
+    box-shadow: grey;
+    text-align: left;
+    color: ghostwhite;
+    font-size: 30px;
+    
+    font-family: 'Signika', sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    align-self: auto;
+    width: auto;
+    height: 400px;
+    /* height:160px; */
+    padding: 5px;
+    display: none;
+    clear: both;
+    margin-bottom: 20px;
+    transition: height 2s;
+}
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
+
 #target2 {
-  background:yellow;
-  width:1200px;
-  height:300px;
-  height:160px;
-  padding:5px;
-  display:none;
+    border-radius: 5px;
+    box-shadow: grey;
+    text-align: left;
+    color: ghostwhite;
+    font-size: 25px;
+    
+    font-family: 'Signika', sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    width: auto;
+    height: 400px;
+    /* height:160px; */
+    padding: 5px;
+    display: none;
+    clear: both;
+    margin-bottom: 20px;
 }
+
+#target3 {
+    border-radius: 5px;
+    box-shadow: grey;
+    text-align: left;
+    color: ghostwhite;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    width: auto;
+    height: 400px;
+    /* height:160px; */
+    padding: 5px;
+    display: none;
+    clear: both;
+    margin-bottom: 20px;
+}
+
 
 .Hide
 {
   display:none;
 }
-
