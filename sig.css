@@ -49,7 +49,7 @@ margin: 1.66%;
   text-align: left;
   color: ghostwhite;
   font-size: 30px;
-  
+
   font-family: 'Signika', sans-serif;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -98,7 +98,7 @@ margin: 1.66%;
   text-align: left;
   color: ghostwhite;
   font-size: 25px;
-  
+
   font-family: 'Signika', sans-serif;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -108,14 +108,6 @@ margin: 1.66%;
   /* height:160px; */
   padding: 5px;
   display: none;
-
-  background:yellow;
-  width: auto;
-  height:300px;
-  /* height:160px; */
-  padding:5px;
-  display:none;
-
   clear: both;
   margin-bottom: 20px;
 }
@@ -126,31 +118,67 @@ margin: 1.66%;
 
   text-align: left;
   color: ghostwhite;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 25px;
   font-family: 'Signika', sans-serif;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
   width: auto;
-  height: 400px;
+  height: 300px;
   /* height:160px; */
   padding: 5px;
   display: none;
-
-  background:yellow;
-  width: auto;
-  height:300px;
-  /* height:160px; */
-  padding:5px;
-  display:none;
-
   clear: both;
   margin-bottom: 20px;
 }
 
+.resources {
+    clear: both;
+    margin: auto;
+    margin-top : 2.5%;
+    color: navy;
+}
 
 .Hide
 {
 display:none;
+}
+
+
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.typewriter h1 {
+    font: bold 300% Consolas, Monaco, monospace;
+    color: indigo;
+    border-right: .1em solid black;
+    width: 20em;
+    width: 30ch;
+    margin: 4em 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 7s steps(40, end), blink-caret .5s step-end infinite alternate;
+}
+
+.task h1{
+    color: indigo;
+    font-weight:bold;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 5%;
+}
+
+.task{
+    font-size: 30px;
+    font-family : 'sans-serif';
+    margin-top: 5%;
 }
